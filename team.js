@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
 const home= document.getElementById('team');
 
 home.addEventListener('click',() => {
-    window.location.href = 'home.html';
+    window.location.href = 'https://teamopinaka.me';
 });
 
 
 function navigate(id){
-    window.location.href = 'home.html#'+id;
+    window.location.href = 'https://teamopinaka.me#'+id;
 }
