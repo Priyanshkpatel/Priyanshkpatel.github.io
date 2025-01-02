@@ -1,0 +1,285 @@
+::-webkit-scrollbar { height: 0; width: 0;}
+
+#email:hover, #ach_1:hover, #ach_2:hover, #ach_3:hover, #ansys:hover, #solidworks:hover, #nav_contact:hover, #scrolled:hover, #flogo:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7); 
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    position: relative;
+    display: grid;
+    grid-template: auto auto / auto
+}
+
+#nav_bar{
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template: 90px / 30% auto 30%;
+    padding-left: 1%;
+    padding-right: 1%;  
+    background-color:transparent;
+    z-index: 4;
+}
+
+#nav_centre{
+    display: grid;
+    grid-template: auto / auto auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    transition: all 0.5s ease; 
+}
+
+#nav_logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#nav_logo > img {
+max-height: 60px;
+}
+
+#nav_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 95%;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+
+#nav_sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 95%;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+#team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 95%;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+
+#nav_contact{
+    font-size: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f31414;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55%;
+    margin-right: 10%;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#content{
+    display: grid;
+    grid-template: auto auto auto auto auto / auto;
+    background-color: #000000;
+    color: white;
+}
+
+#home_page{
+    
+    height: 110vh;
+    background-image: url(hm4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#description{
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: larger;
+}
+
+#Achievement{
+    display: grid;
+    grid-template: auto auto auto / auto auto;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#ach{
+    grid-area: 1/1/2/4;
+    font-size: 280%;
+    text-align: center;
+}
+
+#ach_1,#ach_2,#ach_3{
+    margin: 4%;
+    height: 350px;
+    background-image: url(logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    transition: box-shadow 0.5s ease;
+}
+
+#Sponsors{
+    display: grid;
+    grid-template: auto auto / auto;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#spn{
+    text-align: center;
+    font-size: 280%;
+    font-weight: bold;
+}
+#Associate{
+    display: grid;
+    grid-template: auto  / auto auto;
+    margin-top: 2%;
+    row-gap: 15%;
+    column-gap: 5%;
+}
+
+#asc{
+    grid-area: 1/1/2/3;
+    text-align: center;
+    font-size: large;
+}
+
+#ansys{
+    height: 150px;
+    background-image: url(ansys.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    transition: box-shadow 0.5s ease;
+}
+
+#Contact{
+    display: grid;
+    grid-template: auto auto / auto;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#ct{
+    text-align: center;
+    font-size: 250%;
+}
+
+#ct1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#email{
+    margin-top: 2%;
+    background-color: #f31414;
+    margin-left: 45%;
+    margin-right: 45%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+}
+
+#footer{
+    background-image: url(background.jpg);
+    display: grid;
+    grid-template: 25vh / 50% auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: white;
+    padding-bottom: 25px;
+}
+
+#flogo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 25px;
+}
+
+#fcontent{
+    display: grid;
+    grid-template: auto auto / auto;
+}
+
+#fc1{
+    display: flex;
+    align-items: last baseline;
+    justify-content:end;
+    font-weight: bold;
+    font-size: larger;
+    color: #f31414;
+}
+
+#fc2{
+    display: flex;
+    justify-content:end;
+    font-size: x-small;
+}
+
+#s{
+    color: #f31414;
+}
+
+#solidworks{
+    height: 150px;
+    background-image: url(solidworks.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    transition: box-shadow 0.5s ease;
+}
+
+
+#scrolled{
+    display: grid;
+    grid-template: auto / auto auto auto;
+    background-color: #00000065;
+    backdrop-filter: blur(7px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: #f31414;
+    transition: all 0.5s ease; 
+}
+
+#content{
+    background-image: url(background.jpg);
+}
